@@ -1,3 +1,19 @@
+# Task
+
+Endpoint: localhost:3000/rpc
+
+# Methods:
+
+##  time.zone:
+   params: 
+    path: "example: /Africa"
+    isText: "example: false"
+
+##  time.ip:
+   params: 
+     ip: "example: /240.280.30.20"
+     isText: "example: false"
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
