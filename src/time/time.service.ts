@@ -28,7 +28,7 @@ export class TimeService {
   getByIp(payload: IpPayload): Observable<AxiosResponse<TimeDto | string>> {
     const path = '' + payload.ip + (payload.isText ? '.txt' : '');
     return this.httpService
-      .get('https://worldtimeapi.org/api/timezone' + path)
+      .get('https://worldtimeapi.org/api/ip' + path)
       .pipe(map((response) => response.data));
   }
   async saveRequest(
